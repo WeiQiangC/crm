@@ -2,6 +2,7 @@ package com.chen.crm.settings.service.impl;
 
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import com.chen.crm.exception.LoginException;
@@ -35,5 +36,10 @@ public class UserServiceImpl implements UserService {
 			
 		}
 		return user;
+	}
+	
+	@Override
+	public List<User> getUserList() {
+		return userDao.getUserList();
 	}
 }

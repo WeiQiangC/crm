@@ -28,6 +28,7 @@
  
   <mappers>
    <package name="com.chen.crm.settings.dao"/>
+   <package name="com.chen.crm.workbench.dao"/>
 
     
   </mappers>
